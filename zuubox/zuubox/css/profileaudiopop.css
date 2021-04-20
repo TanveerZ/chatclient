@@ -1,0 +1,202 @@
+
+.profile_audio_pop, .info_edit, .profile_about_edit{
+
+    width: auto;
+
+    float: none;
+
+    display: table;
+
+    border: 3px solid #ffa500;
+
+    padding: 15px;
+
+    position: absolute;
+
+    background: #fff;
+
+    left: 21px;
+
+    box-shadow: 1px 3px 6px rgba(8, 8, 8, 0.17);
+
+    z-index: 999;
+
+    min-height: auto;
+
+    display: none;
+
+}
+
+.profile_audio_pop .info, .info_edit .info, .profile_about_edit .info{
+
+   height: auto;
+
+   max-height: auto;
+
+}
+
+.close-btn, .close-btn:focus, .close-btn:active,
+
+.close-btn-sub, .close-btn-sub:focus, .close-btn-sub:active{
+
+    background: transparent;
+
+    border: none;
+
+    font-size: 18px;
+
+    position: absolute;
+
+    top: 4px;
+
+    right: 4px;
+
+    z-index: 999;
+
+    outline: none;
+
+    cursor: pointer;
+
+}
+
+.info_edit, .profile_audio_pop, .profile_about_edit{
+
+    display: none;
+
+}
+
+
+
+.profile_audio_pop input[type=submit], .photo_gallary_add input[type=button] {
+
+    outline: none;
+
+    -webkit-appearance: none;
+
+    border: none;
+
+    margin: 7px 16px;
+
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+    border-radius: 2px;
+
+    padding: 3px 9px;
+
+}
+
+.profile_audio_pop .profile_about_edit textarea.text{
+
+    margin-bottom: 8px;
+
+}
+
+.profile_audio_pop .info_edit .sect{
+
+    padding: 0px;
+
+}
+
+
+
+
+
+.profile_audio_pop .profile_pic .edit {
+
+    position: relative;
+
+    margin: 0px;
+
+    top: 0;
+
+    left: 0;
+
+    display: inline-block;
+
+    vertical-align: top;
+
+    text-align: right; 
+
+    background-color: #fff;
+
+}
+
+
+
+.profile_audio_pop .profile_pic .button_container {
+
+    position: absolute;
+
+    z-index: 10;
+
+    bottom: 0;
+
+    right: 0;
+
+    text-align: center;
+
+    display: block;
+
+    transition: opacity 0.1s;
+
+}
+
+
+
+.profile_audio_pop .profile_pic {
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    background-size: cover;
+
+    border: 1px solid #000;
+
+}
+
+.profile_audio_pop  .photo {
+
+ background-color: #777;
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 166px;
+
+    height: 153px;
+
+
+
+}
+
+
+
+.profile_audio_pop  .photo img {
+
+    display: block;
+
+    position: absolute;
+
+    z-index: 5;
+
+    height: 100%;
+
+    width: 100%;
+
+    opacity: 0;
+
+}
+
+.profile_audio_pop .box-weight [class*="col-"]{
+
+    padding: 0px;
+
+}
+
+

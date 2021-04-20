@@ -1,0 +1,134 @@
+.sidebar_r {
+	position: fixed;
+	right: 0;
+	top: 38px;
+	/* bottom: 0; */
+	overflow: auto;
+	/* background-color: #ddd; */
+	width: 146px;
+	z-index: 12;
+}
+
+.cal_map {
+	position: relative;
+	padding: 0 25px 0 0;
+}
+
+.sidebar_r .side_label {
+    position: absolute;
+    height: 100%;
+    width: 25px;
+    right: 0;
+    top: 0;
+    right: 0;
+    background-color: #aaa;
+    word-wrap: break-word;
+    font-size: 12px;
+    font-weight: 600;
+    width: 5px;
+    padding: 50px 18px 0px 7px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, #bbb, #fff 35%, #222);
+}
+
+.page_content {
+	right: 203px;
+}
+
+.sidebar_r .calendar .days {
+	width: 100%;
+	height: 0;
+	padding: 50% 0 0 0;
+	position: relative;
+}
+
+.sidebar_r .calendar .days .content {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.sidebar_r .calendar .day {
+	display: inline-block;
+	width: 14.28571%;
+	height: 100%;
+	text-align: right;
+	font-size: 8px;
+	position: relative;
+	padding: 2%;
+	background-color: #eee;
+}
+.sidebar_r .calendar .day.this_month {
+	background-color: #fff;
+}
+
+.sidebar_r .calendar .day.low {
+	background-color: yellow;
+}
+.sidebar_r .calendar .day.med {
+	background-color: orange;
+}
+.sidebar_r .calendar .day.high {
+	background-color: red;
+}
+
+
+
+.sidebar_r .calendar .week {
+	white-space: nowrap;
+	font-size: 0;
+	position: relative;
+	height: 20%;
+}
+
+
+.sidebar_r .calendar .day:not(:first-child),
+.sidebar_r .calendar .days .week {
+	border: 1px solid #ccc;
+}
+.sidebar_r .calendar .day:not(:first-child) {
+	border-width: 0 0 0 1px;
+}
+.sidebar_r .calendar .days .week {
+	border-width: 1px 0 0 0;
+}
+
+.sidebar_r .calendar .day_names .week {
+	height: 10%;
+}
+.sidebar_r .calendar .day_names .day {
+	text-align: center;
+	border: none;
+	padding: 2% 0;
+	background-color: #fff;
+}
+.sidebar_r .calendar {
+	border: 1px solid #000;
+}
+
+
+
+.sidebar_r .map {
+	margin: 15px 0 0 0;
+	width: 100%;
+	height: 175px;
+	border: 1px solid #000;
+}
+
+.sidebar_r .area1 {
+	position: relative;
+	height: 0;
+	padding: 50% 0 0 0;
+	background-color: #999;
+}
+
+.sidebar_r .links {
+	text-align: right;
+	font-size: 8px;
+	padding: 0 7px 0 0;
+	margin: 10px 0 5px 0;
+}
+
+.sidebar_r .links .link {
+	/* margin: 0 2px; */
+}

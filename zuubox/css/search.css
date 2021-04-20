@@ -1,0 +1,76 @@
+.searchpop .search-r {
+    border: 1px solid #000;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #fff;
+    max-width: 635px;
+    text-align: left;
+    z-index: 999;
+    position: absolute;
+    top: 1px;
+    height: 485px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    animation: animateright 0.5s; 
+    display: none;
+   
+}
+@keyframes animateright{from{opacity: 0;} to{opacity: 0.8;}}
+/*.calendar  .search-r:before{
+    position: absolute;
+    content: '';
+    right: -39px;
+    width: 39px;
+    height: 10px;
+    border: 1px solid #000;
+    border-left: 0px solid;
+    top: 153px;
+    background-color: #fff;
+}*/
+.searchpop .search-box-sc{
+    height: 444px;
+    overflow-y: scroll !important;
+
+}
+.searchpop .search-box-sc table{
+    max-width: 100%;
+    }
+.searchpop .post-left{
+    width: 73%;
+    float: left;
+}
+.searchpop .post-right{
+    width: 27%;
+    float: left;
+}
+.searchpop .post-viwe{
+   direction: ltr;
+}
+.searchpop .user-head h3{
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+.searchpop .user-head a{ 
+    border: 1px solid #333; 
+    padding: 3px 10px;
+    border-radius: 3px;
+    transition: all 0.2s;
+    display: inline-block;
+    margin: 5px 0px; 
+}
+
+
+.close-btn, .close-btn:focus, .close-btn:active{
+
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: 999;
+    outline: none;
+    cursor: pointer;
+}

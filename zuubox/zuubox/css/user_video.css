@@ -1,0 +1,70 @@
+.user_video .user_video {
+    border: 1px solid #000;
+    margin: 25px auto;
+    padding: 25px;
+    padding-right: 0px;
+    background-color: #fff;
+    /*width: 600px;*/
+    width: 600px;
+    text-align: left;
+    z-index: 999999;
+    position: absolute;
+    top: 11px;
+    height: 400px;
+    margin: auto;
+    left: 0px;
+    right: 0%;
+    animation: animateright 0.5s;
+    display: none;
+}
+@keyframes animateright{from{opacity: 0;} to{opacity: 0.8;}}
+/*.recent-tab  .recent_posts:before{
+    position: absolute;
+    content: '';
+    right: -109px;
+    width: 109px;
+    height: 10px;
+    border: 1px solid #000;
+    border-left: 0px solid;
+    top: 101px;
+    background-color: #fff;
+}*/
+.recent-box-sc{
+    height: 500px;
+    overflow-y: scroll;
+} 
+.user_video .user-head h3 {
+    padding: 9px;
+    margin: 0;
+    margin-bottom: 11px;
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    background: #000;
+    display: inline-block;
+}
+.user_video .post-viwe {
+    margin-bottom: 30px;
+ }
+
+.midsize{
+    float: right;
+    margin-top: -11px;
+    margin: 0px 11px 0px 0px;
+    font-size:10px;
+}
+.maxsize{
+    float: right;
+   
+    margin: -3px 11px 0px 0px;
+    font-size:15px;
+}
+
+.minsize
+{
+     float: right;
+    margin-top: -11px;
+    margin: 0px 11px 0px 0px;
+    
+
+}

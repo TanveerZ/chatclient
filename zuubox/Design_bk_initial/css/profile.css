@@ -1,0 +1,332 @@
+.profile .profile {
+    border: 1px solid #000;
+    margin: 25px auto;
+    padding: 25px;
+    background-color: #fff;
+    min-width: 772px;
+    max-width: 741px;
+    text-align: left;
+    z-index: 999;
+    position: absolute;
+    top: 11px;
+    height: 500px;
+    margin: auto;
+    left: 0px;
+    right: 0%;
+    animation: animateright 0.5s;
+    display: none;
+}
+@keyframes animateright{from{opacity: 0;} to{opacity: 0.8;}}
+/*.profile  .profile:before{
+    position: absolute;
+    content: '';
+    right: -109px;
+    width: 109px;
+    height: 10px;
+    border: 1px solid #000;
+    border-left: 0px solid;
+    top: 101px;
+    background-color: #fff;
+}*/
+ 
+ 
+.profile .user-head h3 {
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 11px;
+    text-align: left;
+}
+.profile .user-head a{
+    padding: 3px;
+    border: 1px solid #000;
+    border-right: 0px solid;
+    margin: 5px -3px;
+    display: inline-block;
+}
+.profile .user-head a:last-child{
+	border:1px solid #000; 
+    border-left:0px solid;
+}
+.profile .filter-top{
+	padding: 5px;
+    background: #e0eabb;
+    border: 1px solid;
+}
+.profile .check{
+	width: 63%;
+}
+.profile .img-responsive{
+	max-width: 100%;
+	height: auto;
+}
+.profile .profile_uplo{
+    position: relative;
+    border: 1px solid #000;
+    margin: 3px;
+    width: 60px;
+    float: right;
+    margin-top: -27px;
+    font-size: 13px;
+    padding: 2px;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    overflow: hidden;
+}
+.profile .profile_uplo input{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+}
+.profile .filter-box{
+	padding: 10px;
+    border: 1px solid #000;
+    border-top: 0px solid;
+}
+.profile .border{ 
+	border:1px solid;
+} 
+.profile .user-box{
+ 	display: inline-block;
+	width: 100%;
+}
+  
+.profile .user-info h3 {
+    margin: 9px 9px;
+    text-align: left;
+    font-size: 17px;
+}
+.profile .user-info label { 
+    font-size: 11px;
+    font-weight: bold;
+    margin: 3px 0px;
+    color: #346614;
+    text-transform: capitalize;
+}
+.profile .user-info label span {
+    display: block;
+    font-weight: normal;
+    color: #000;
+} 
+.profile .aviator {
+    margin-bottom: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+.profile .aviator h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 2px;
+}
+.profile .aviator a {
+    color: #337ab7;
+}
+.profile .aviator a:hover {
+    color: #000;
+}
+
+
+
+
+
+
+
+.profile .info{
+    overflow-y: scroll;
+    height: 244px;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+.profile .form_buttons {
+    text-align: right;
+}
+
+.profile form.basic_info {
+    padding-right: 30px;
+}
+
+.profile .sect {
+    border: 1px solid #000;
+}
+.sect .about {
+    height: 150px;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.profile .soi .col {
+    display: inline-block;
+    vertical-align: top;
+    width: 15%;
+}
+
+.profile .soi .col:not(:first-child) {
+    margin: 0 0 0 25px;
+}
+
+.profile .sect {
+    margin: 1px 7px 15px 0px;
+    padding: 8px 5px 25px 25px;
+    position: relative;
+}
+
+.profile .sect_title {
+    margin: 2px 0 10px 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.profile .cols {
+    white-space: nowrap;
+}
+
+.profile textarea.text {
+    display: block;
+    width: 100%;
+    min-height: 350px;
+}
+
+.profile .about .text {
+    white-space: pre-wrap;
+}
+
+.profile .about p {
+    margin: 10px 0;
+}
+
+.profile .photos .pics {
+    white-space: nowrap;
+    font-size: 0;
+    overflow: auto;
+}
+
+.profile .photos .pic {
+    display: inline-block;
+    margin: 10px 2px;
+    height: 125px;
+    position: relative;
+    min-width: 15px;
+}
+
+.profile .photos .pic img {
+    height: 100%;
+}
+
+.profile .photos .pic .select {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    z-index: 10;
+}
+
+.profile .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.9);
+    z-index: 99999;
+    display: none;
+}
+
+.profile .modal .pic_container {
+    position: absolute;
+    height: calc(100% - 100px);
+    width: calc(100% - 100px);
+    z-index: 99999;
+    background: no-repeat center;
+    background-size: contain;
+}
+
+.profile .modal .close {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.add_photo {
+    box-sizing: content-box;
+}
+
+.edit input[type=file] {
+    position: absolute;
+    border: 2px solid #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 10;
+}
+
+.profile .profile_pic .edit {
+    position: relative;
+    margin: 5px;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    box-shadow: 0 0 15px 0 #000;
+    background-color: #fff;
+}
+
+.profile .profile_pic .button_container {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    display: block;
+    transition: opacity 0.1s;
+}
+
+.profile .profile_pic {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.profile .sect_title .small {
+    display: inline;
+    font-size: 60%;
+}
+
+.profile .buttons {
+    text-align: right;
+}
+
+.profile .buttons .underline {
+    margin: -2px 0 0 25px;
+    height: 2px;
+    background-color: #000;
+
+}
+
+.profile .errors {
+    color: red;
+    font-size: 14px;
+    margin: 0px 0 20px 250px;
+} 
+
+select[name=height],
+select[name=height] option {
+    text-align: left;
+}
+select[name=height] option {
+     font-family: monospace;
+}
+.profile .info .aviator{
+    margin-bottom: 5px;
+    padding: 2px;
+    display: inline-block; 
+}

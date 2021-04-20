@@ -1,0 +1,144 @@
+.activity .activity{
+
+    border: 1px solid #000;
+
+    margin: 25px auto;
+
+    padding: 25px;
+
+    background-color: #fff;
+
+    min-width: 819px;
+
+    max-width: 999px;
+
+    text-align: left;
+
+    /*z-index: 999;*/
+
+    position: absolute;
+
+    top: 10px;
+
+    /* height: 535px; */
+    height: 574px;
+    margin: auto;
+
+    left: 0px;
+
+    right: 0px;
+
+    animation: animateright 0.5s;
+
+    display: none;
+	overflow-y: scroll;
+
+}
+
+@keyframes animateright{from{opacity: 0;} to{opacity: 0.8;}}
+
+.activity  .activity:before {
+
+    position: absolute;
+
+    content: '';
+
+    left: -33px;
+
+    width: 33px;
+
+    height: 10px;
+
+    border: 1px solid #000;
+
+    border-right: 0px solid;
+
+    top: 52px;
+
+    background-color: #fff;
+
+}
+
+.btn-blue{
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+
+.btn-blue:hover, .sess-blue {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-green{
+    color: #28a745;
+    background-color: transparent;
+    background-image: none;
+    border-color: #28a745;
+}
+
+.btn-green:hover, .sess-green {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-red{
+    color: #dc3545;
+    background-color: transparent;
+    background-image: none;
+    border-color: #dc3545;
+}
+
+.btn-red:hover, .sess-red {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-yellow{
+    color: #ffc107;
+background-color: transparent;
+background-image: none;
+border-color: #ffc107;
+}
+
+.btn-yellow:hover, .sess-yellow {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.activity-hr{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-top: 6px solid #eee;
+}
+
+.activity-card{
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    border-width: .2rem;
+    border: solid #f8f9fa;
+}
+
+.activity-main-title{
+    padding-left: 15px;
+font-size: 24px;
+margin: inherit;
+    margin-bottom: inherit;
+text-align: inherit;
+margin-bottom: 10px;
+}
+
+#mapActivity {
+    margin: 0;
+    padding: 0;
+    height:324px;
+    width: 100%;
+    position:relative!important;
+    top:0;
+}

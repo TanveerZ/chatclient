@@ -1,0 +1,84 @@
+.header {
+	height: 28px; 
+}
+
+.header .logo { 
+	height: 13px; 
+}
+.sidebar {
+  top: 28px;
+}
+html .footer { 
+    height: 54px;
+}
+.sidebar .inner{
+   top: 21px;
+}
+.sidebar .triangle{
+	top: 104%;
+}
+html .footer .inner {
+    height: 43px;
+}
+html .page_content .submit .top {
+    height: 4px;
+}
+html .page_content .submit .mid .left {
+    width: 14px;
+    height: 24px;
+}
+html .page_content .submit .mid .middle { 
+    font-size: 9px;
+}
+html .page_content .submit .mid .right {
+    width: 7px;
+    height: 24px;
+}
+html .footer .submit .bottom2 {
+    height: 4px;
+}
+html .page_content .search .query {
+    padding: 5px;
+}
+
+
+.header .triangle {
+	height: 100%;
+	z-index: -1;
+	width: 150px;
+	background: linear-gradient(black, #ddd);
+	transform: skew(-60deg);
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform-origin: bottom;
+}
+
+.header .login {
+	position: absolute;
+	top: 0;
+	left: calc(100%);
+	cursor: default;
+	display: block;
+	color: #000;
+	border: 2px solid #000;
+	border-width: 2px 4px;
+	background-color: #fff;
+}
+
+.header .login .bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.header .login .text { 
+	font-size: 13px; 
+}
+
+.page_content {
+	top: 38px;
+}

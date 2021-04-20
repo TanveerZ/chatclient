@@ -1,0 +1,66 @@
+.header {
+	height: 38px;
+	position: fixed;
+	background: linear-gradient(black, #ddd);
+	top: 0;
+	left: 0;
+	width: 50%;
+	z-index: 10;
+}
+
+.header .logo {
+	left: 11px;
+	height: 19px;
+	display: block;
+	position: absolute;
+}
+
+.header .triangle {
+	height: 100%;
+	z-index: -1;
+	width: 150px;
+	background: linear-gradient(black, #ddd);
+	transform: skew(-60deg);
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform-origin: bottom;
+}
+
+.header .login {
+	position: absolute;
+	top: 0;
+	left: calc(100%);
+	cursor: default;
+	display: block;
+	color: #000;
+	border: 2px solid #000;
+	border-width: 2px 4px;
+	background-color: #fff;
+}
+
+.header .login .bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.header .login .text {
+	padding: 3px 15px 3px 12px;
+	transform: skew(60deg);
+	font-size: 15px;
+	line-height: 0.8;
+	font-weight: 400;
+	transform-origin: center;
+	/* background-color: #fff; */
+}
+
+.page_content {
+	top: 38px;
+}
+.footer .submit .top, .footer .submit .mid, .footer .submit .bottom{
+	background: rgba(204, 204, 204, 0) !important;
+}

@@ -1,0 +1,393 @@
+.post .profile, .friend .profile {
+
+    border: 1px solid #000;
+
+    margin: 25px auto;
+
+    padding: 25px;
+
+    background-color: #fff;
+
+    min-width: 819px;
+
+    max-width: 999px;
+
+    text-align: left;
+
+    z-index: 999;
+
+    position: absolute;
+
+    top: 1px;
+
+    /* height: 535px; */
+    height: 674px;
+    margin: auto;
+
+    left: 0px;
+
+    right: 0px;
+
+    animation: animateright 0.5s;
+
+    display: none;
+	    overflow: hidden;
+
+}
+
+@keyframes animateright{from{opacity: 0;} to{opacity: 0.8;}}
+
+.post  .profile:before , .friend  .profile:before  {
+
+    position: absolute;
+
+    content: '';
+
+    left: -33px;
+
+    width: 33px;
+
+    height: 10px;
+
+    border: 1px solid #000;
+
+    border-right: 0px solid;
+
+    top: 52px;
+
+    background-color: #fff;
+
+}
+
+.post .post-scroll, .friend .post-scroll{
+
+    height: 433px;
+
+    overflow-y: scroll;
+
+    direction: rtl;
+
+
+
+}
+
+.post .post-left, .friend .post-left{
+	width: 59%;
+    padding-top: 15px;
+    float: left;
+}
+
+.post .post-right, .friend .post-right{
+    width: 41%;
+    padding-top: 15px;
+    float: left;
+}
+
+.user-filter{
+
+    /* width: 221px; */
+    width: 250px;
+    float: right;
+
+}
+
+.post .post-viwe, .friend .post-viwe{
+
+   direction: ltr;
+
+}
+
+.post .user-head h3, .friend .user-head h3{
+
+	padding: 0px;
+
+	margin: 0px;
+
+	text-align: left;
+
+}
+
+.post .user-head a, .friend .user-head a{
+
+    padding: 3px;
+
+    border: 1px solid #000;
+
+    border-right: 0px solid;
+
+    margin: 5px -3px;
+
+    display: inline-block;
+
+}
+
+.post .user-head a:last-child, .friend .user-head a:last-child{
+
+	border:1px solid #000; 
+
+    border-left:0px solid;
+
+}
+
+.post .filter-top, .friend .filter-top{
+
+	padding: 5px;
+
+    background: #e0eabb;
+
+    border: 1px solid;
+
+}
+
+.post .check, .friend .check{
+
+	width: 63%;
+
+}
+
+.post .img-responsive, .friend .img-responsive{
+
+	max-width: 100%;
+
+	height: auto;
+
+}
+
+.post .profile_uplo,.friend .profile_uplo{
+
+    position: relative;
+
+    border: 1px solid #000;
+
+    margin: 3px;
+
+    width: 60px;
+
+    float: right;
+
+    margin-top: -20px;
+
+    font-size: 13px;
+
+    padding: 2px;
+
+    text-align: center;
+
+}
+
+.post .profile_uplo input, .friend .profile_uplo input{
+
+    opacity: 0;
+
+    position: absolute;
+
+    top: 0px;
+
+    left: 0px;
+
+}
+
+.post .filter-box, .friend .filter-box{
+
+	/*padding: 10px;*/
+
+    padding: 0px 0px 6px 5px;
+
+    border: 1px solid #000;
+
+    border-top: 0px solid;
+
+}
+
+.post .col-left, .friend .col-left {
+
+	float: left; 
+
+	border:1px solid;
+
+} 
+
+.post .user-box, .friend .user-box{
+
+	display: inline-block;
+
+	width: 100%;
+
+}
+
+.post .user-img, .friend .user-img{
+
+    width: 115px;
+
+    margin: 5px; 
+
+}
+
+.post .user-info, .friend .user-info{
+
+	padding: 10px;
+
+	width: 380px;
+
+    margin: 5px;
+
+}
+
+.post .user-info h3 {
+
+    margin: 9px 0px;
+
+    text-align: left;
+
+    font-size: 17px;
+
+}
+
+html .post .user-info label { 
+
+    font-size: 8px;
+
+    font-weight: bold;
+
+    margin: 3px 0px;
+
+    color: #FF0000;
+
+}
+
+.post .user-info label span {
+
+    display: block;
+
+    font-weight: normal;
+
+    color: #000;
+
+}
+
+.post .aviator{
+
+    padding: 10px;
+
+    width: 121px;
+
+    margin: 5px;
+
+}
+
+.post .col-xs-6{
+
+	width: 50%;
+
+	float: left;
+
+}
+
+.post .col-xs-3{
+
+	width: 25%;
+
+	float: left;
+
+}
+
+h3{
+
+    font-size: 18px;
+
+}
+
+.filter-box .input-group{
+
+    margin-top:10px;
+
+}
+
+.filter-box .input-group-btn{
+
+    padding: 0px 0px;
+
+}
+
+.filter-box  .form-control{
+
+    height: 28px;
+
+}
+
+.filter-box  .btn{
+
+    height: 28px;
+
+    padding: 0px 11px;
+
+}
+
+.search-result{
+
+    width: 100%;
+
+    display: inline-block;
+
+}
+
+.search-result h3{
+
+    margin: 0px;
+
+    text-align: left;
+
+}
+
+
+
+.search-result .user-img {
+
+    width: 56px;
+
+    margin: 5px;
+
+}
+
+.search-result .user-info {
+
+    padding: 10px;
+
+    width: 295px;
+
+    margin: 5px;
+
+}
+
+.search-result  .post-scroll {
+
+    height: 258px;
+
+    overflow-y: scroll;
+
+    direction: ltr;
+
+}
+
+
+
+.profile .window-btn2 {right: 0;}
+
+.user-head button.close-btn.pull-right:hover {
+
+    background: #efefef !important;
+
+}
+.drop-list{
+    font-size: 12px;
+    font-weight: normal;
+    word-wrap: break-word;    
+}
+.drop-padding{
+    padding-left: 0;
+    padding-right: 20px;
+}
+.less-padding-drop{
+    padding: 6px 3px !important;
+font-size: 11px !important;
+}

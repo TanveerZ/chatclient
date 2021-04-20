@@ -1,0 +1,67 @@
+
+.video_slider .profile {
+ bottom:0px;
+ z-index: 999;
+ 
+} 
+.flipster__item__content img{
+    width: 100px;
+    overflow: hidden;
+}
+
+#video_slider.demo{
+    position: absolute;
+    bottom: -12px;
+    z-index: 9999;
+    left: 0px;
+    right: 0px;
+    margin-bottom: -41px;
+    display: none;
+}
+
+.video-width{
+  widows: 200px;
+}
+
+.slidervideo
+{
+	height: 120px;
+	width:120px;
+}
+
+.user_video .slidervideo
+{
+   margin: -9px;
+    height: 336px;
+width:100%;
+}
+
+ 
+
+input[type="file"] {
+    /*display: none;*/
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    width: 150px;
+    margin: 10px auto -20px;
+}
+li.flipster__item.flipster__item--current img.img-responsive {
+    width: 80px;
+    height: 90px;
+}
+.flipster--coverflow .flipster__item {
+    perspective: 800px;
+    margin-right: -60px;
+}
+ /*======================================================================
+Safari Browser Css Start
+======================================================================*/
+::i-block-chrome,.flipster--coverflow .flipster__item {margin: 0 -8px !important;}
+
+/*======================================================================
+Safari Browser Css End
+======================================================================*/

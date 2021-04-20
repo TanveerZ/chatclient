@@ -1,0 +1,114 @@
+form.education1 {
+    border: 1px solid #000;
+    margin: 25px auto;
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    z-index: 999;
+    position: absolute;
+    bottom: 11px;
+    height: 534px;
+    margin: auto;
+    left: -360px;
+    right: 0px;
+    display: none;
+    animation: animateright 0.5s;
+	    overflow-y: scroll;    margin-bottom: 2px;
+}
+form.education1 img.img-responsive.edu-head {
+    width: 100%;
+    margin-top: 10px;
+}
+.edication-sec1 {
+    padding: 25px;
+}
+
+.edication-sec1 h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.edication-sec1 h6 {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.edication-sec1 
+ ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.edication-sec1 ul li p {
+    text-align: right;
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+}
+.edication-sec1 ul li .right1 p {
+    margin-right: 40px;
+}
+
+.edication-sec1 ul li {
+/*    border-bottom: 1px solid #b6d433;
+    padding-bottom: 10px;
+    margin-bottom: 10px;*/
+	margin-bottom: 20px;
+}
+.edication-sec1 a.btn-box {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 25px;
+    background-color: #A6CE42;
+    display: inline-block;
+    border: 2px solid #000;
+    margin: 0px 0 10px 0;
+    color: #000;
+    float: right;
+}
+
+.edication-sec1:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.edication-sec1 a.btn-box:hover {
+    background: #ffb441;
+    color: #fff;
+}
+.ed-right {
+    margin-right: 30px;
+}
+.ed-right {
+    margin-right: 30px;
+}
+
+.ed-right h6 a:hover {
+    color: #86b11a;
+}
+
+
+.ed-right h6:last-child {
+    margin-top: -5px;
+}
+h6.ed-left {
+    margin-left: 50px;
+    width: 150px;
+}
+a.btn-box2 {
+    font-size: 20px;
+    border: 1px dashed transparent;
+    padding: 9px 15px;
+    transition: 0.4s;
+}
+
+a.btn-box2:hover {
+    border: 1px dashed #779c1b;
+    color: #1633ca;
+}

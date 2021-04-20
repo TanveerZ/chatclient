@@ -1,0 +1,152 @@
+.post .cell {
+    border: 1px solid #000;
+    margin: 25px auto;
+    padding: 25px;
+    padding-right: 0px;
+    background-color: #fff;
+    min-width: 772px;
+    max-width: 741px;
+    text-align: left;
+    z-index: 999;
+    position: absolute;
+    top: 11px;
+    height: 500px;
+    margin: auto;
+    left: 0px;
+    right: 0%;
+    animation: animateright 0.5s;
+    display: none;
+}
+@keyframes animateright{from{opacity: 0;} to{opacity: 0.8;}}
+
+.recent-box-sc{
+    height: 456px;
+    overflow-y: scroll;
+} 
+.cell .user-head h3 {
+    padding: 9px;
+    margin: 0;
+    margin-bottom: 11px;
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    background: #000;
+    display: inline-block;
+}
+.cell .post-viwe {
+    margin-bottom: 30px;
+ }
+
+ .cell .post-scroll{
+    height: 433px;
+    overflow-y: scroll;
+    direction: rtl;
+
+}
+.cell .post-left{
+    width: 73%;
+    float: left;
+}
+.cell .post-right{
+    width: 27%;
+    float: left;
+}
+.cell .post-viwe{
+   direction: ltr;
+}
+.cell .user-head h3{
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+.cell .user-head a{
+    padding: 3px;
+    border: 1px solid #000;
+    border-right: 0px solid;
+    margin: 5px -3px;
+    display: inline-block;
+}
+.cell .user-head a:last-child{
+    border:1px solid #000; 
+    border-left:0px solid;
+}
+.cell .filter-top{
+    padding: 5px;
+    background: #e0eabb;
+    border: 1px solid;
+}
+.cell .check{
+    width: 63%;
+}
+.cell .img-responsive{
+    max-width: 100%;
+    height: auto;
+}
+.cell .profile_uplo{
+    position: relative;
+    border: 1px solid #000;
+    margin: 3px;
+    width: 60px;
+    float: right;
+    margin-top: -20px;
+    font-size: 13px;
+    padding: 2px;
+    text-align: center;
+}
+.cell .profile_uplo input{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.cell .filter-box{
+    padding: 10px;
+    border: 1px solid #000;
+    border-top: 0px solid;
+}
+.cell .col-left {
+    float: left; 
+    border:1px solid;
+} 
+.cell .user-box{
+    display: inline-block;
+    width: 100%;
+}
+.cell .user-img{
+    width: 115px;
+    margin: 5px; 
+}
+.post .user-info{
+    padding: 10px;
+    
+    margin: 5px;
+}
+.cell .user-info h3 {
+    margin: 9px 0px;
+    text-align: left;
+    font-size: 17px;
+}
+html .cell .user-info label { 
+    font-size: 8px;
+    font-weight: bold;
+    margin: 3px 0px;
+    color: #FF0000;
+}
+.cell .user-info label span {
+    display: block;
+    font-weight: normal;
+    color: #000;
+}
+.cell .aviator{
+    padding: 10px;
+    width: 121px;
+    margin: 5px;
+}
+.cell .col-xs-6{
+    width: 50%;
+    float: left;
+}
+.cell .col-xs-3{
+    width: 25%;
+    float: left;
+}

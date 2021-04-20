@@ -1,0 +1,287 @@
+.settings .settings {
+    border: 1px solid #000;
+    margin: 25px auto;
+    padding: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+    min-width: 870px;
+    max-width: 741px;
+    text-align: left;
+    z-index: 999;
+    position: absolute;
+    top: 11px;
+    height: 500px;
+    margin: auto;
+    left: 0px;
+    right: 0%;
+    animation: animateright 0.5s;
+    display: none;
+}
+@keyframes animateright{from{opacity: 0;} to{opacity: 0.8;}}
+/*.recent-tab  .recent_posts:before{
+    position: absolute;
+    content: '';
+    right: -109px;
+    width: 109px;
+    height: 10px;
+    border: 1px solid #000;
+    border-left: 0px solid;
+    top: 101px;
+    background-color: #fff;
+}*/
+.recent-box-sc{
+    height: 456px;
+    overflow-y: scroll;
+} 
+.settings .user-head h3 {
+    padding: 9px;
+    margin: 0;
+    margin-bottom: 11px;
+    text-align: left;
+    color: #fff;
+    font-size: 14px;
+    background: #000;
+    display: inline-block;
+}
+.settings .post-viwe {
+    margin-bottom: 30px;
+ }
+
+ .settings .goog-logo-link
+
+{
+    display: none!important;
+}
+
+
+/*--new--*/
+.settingmenu
+ {
+    height: 30px;
+    width: 100%;
+    border: 1px solid;
+    margin-top: 3px;
+    margin-left: 10px;
+    padding: 3px;
+    text-align: center;
+
+ }
+
+
+
+.mainsetting .menulist ul, .mainsetting .menulist ul li{
+    background: #000;
+    margin: 0px;
+    padding: 6px 0px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #333;
+    position: relative;
+    font-size: 11px;
+}
+.menulist .settingmenu.active:before{
+    content: '';
+    position: absolute;
+    border: 8px solid transparent;
+    border-left-color: #ffa500;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 10px;
+    margin: auto;
+}
+
+
+
+.panel-default > .panel-heading {
+    color: #fff;
+    background-color: #000;
+    }
+
+
+.nav-tabs > li.historyyear{
+    border: none;
+    font-weight: bold;
+}
+.nav-tabs{
+    border: none;
+}
+.nav-tabs:after, .nav-tabs:before{
+    display: none;
+}
+.sub-setting{
+    font-size: 10px;
+    width: 100%;
+}
+.sub-setting.active{
+    font-weight:bold;
+}
+.currenthistory .col-lg-9{
+    word-wrap: break-word;
+}
+.scroll-rtl{
+    max-height: 400px;
+    overflow-y:  scroll;
+    direction: rtl;
+    padding: 0px 0px;
+}
+.scroll-ltr{
+    max-height: 400px;
+    overflow-y:  scroll;
+    direction: ltr;
+}
+[class*="scroll-"]::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+[class*="scroll-"]::-webkit-scrollbar
+{
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+[class*="scroll-"]::-webkit-scrollbar-thumb
+{
+    background-color: #000000;
+}
+div.bhoechie-tab-menu div.list-group>a .glyphicon,
+div.bhoechie-tab-menu div.list-group>a .fa {
+color: #b6d433;
+    text-shadow: 1px 1px 0px #000;
+}
+
+
+div.bhoechie-tab-menu div.list-group>a.active,
+div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group>a.active .fa{
+  background-color: #1a1a1a;
+  background-image: #1a1a1a;
+  color: #ffffff;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active){
+  display: none;
+}
+.settings .settings .bhoechie-tab-menu .list-group a.list-group-item {font-size: 11px;padding: 7px 10px;text-align: center;}
+.settings .settings .bhoechie-tab-menu .list-group a.list-group-item h4 {font-size: 14px;display: block;margin: 0 0 5px 0;}
+
+.settings .settings .bhoechie-tab h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #040404;
+    border-bottom: 1px dashed #999;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.settings .settings .bhoechie-tab .table > tbody > tr > th {
+    border-bottom: 0;font-size: 13px;
+}
+
+.settings .settings .bhoechie-tab .table > tbody > tr > td > a.edit-btn {
+    color:#337ab7;
+}
+.settings .settings .bhoechie-tab .table > tbody > tr > td {
+    font-size: 13px;
+}
+.bhoechie-tab {}
+
+.bhoechie-tab .panel-group {
+    margin: 0;
+}
+
+.bhoechie-tab .panel-group .panel.panel-default {border-radius: 0;border: 0;}
+
+.bhoechie-tab .panel-group .panel.panel-default .panel-heading {
+    background:rgba(241, 241, 241, 0.9490196078431372) !important;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 0;
+	cursor: pointer;
+}
+
+.bhoechie-tab .panel-group .panel.panel-default .panel-heading h6 {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.bhoechie-tab .panel-group .panel.panel-default .panel-heading p {
+    margin: 0;
+    font-size: 13px;
+}
+.bhoechie-tab .panel-group .panel.panel-default .panel-heading a.edit-btn {
+    color: #337ab7;
+    font-size: 13px;
+	    float: right;
+}
+
+
+.settings .settings .bhoechie-tab .form-group button {
+    width: 100%;
+    padding: 5px 10px;
+    background: #b6d433;
+    font-size: 13px;
+}
+.settings .settings .bhoechie-tab .form-group:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.settings .settings .bhoechie-tab .form-group button {
+    width: 100%;
+}
+
+.bhoechie-tab .panel-group .panel.panel-default .panel-collapse {
+    padding: 15px;
+}
+.settings .settings .bhoechie-tab .form-group button:hover {
+    background: #000;
+    color: #fff;
+}
+input[type=".bhoechie-tab .panel-group .panel.panel-defaultradio"] {}
+
+.bhoechie-tab .panel-group .panel.panel-default input[type="radio"] {
+    vertical-align: sub;
+    margin: 0 5px 0 0;
+}
+
+.bhoechie-tab .panel-group .panel.panel-default input[type="checkbox"] {
+    vertical-align: sub;
+    margin: 0 5px 0 0;
+}
+.bhoechie-tab .panel-group .panel.panel-default input.sub-btn1 {
+    max-width: 130px;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    padding: 6px 10px;
+}
+
+.bhoechie-tab .panel-group .panel.panel-default input.sub-btn1:hover {
+    background: #b6d433;
+    color: #000;
+}
+.bhoechie-tab-menu {
+    height: 380px;
+    overflow-y: scroll;
+}
+.p-add1 {padding-left:25px;}
+.pright0 {padding-right:0;}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+ .bhoechie-tab .panel-group .panel.panel-default .panel-heading {
+    background:lightgrey !important;}
+.page_content .search {float: right;
+    position: static;
+    margin-top: -8px;margin-right:56px;}
+html .footer .submit .bottom2 {
+    height: 0;
+}
+}

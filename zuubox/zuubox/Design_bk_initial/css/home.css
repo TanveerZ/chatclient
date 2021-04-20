@@ -1,0 +1,128 @@
+h3 {
+	margin: 50px 0;
+	text-align: center;
+}
+
+.page_content .search {
+	white-space: nowrap;
+	border: 2px solid #000;
+	border-width: 0 0 2px 0;
+	display: table;
+	vertical-align: top;
+	position: absolute;
+	bottom: 3px;
+	right: 56px;
+	width: 50%;
+	padding: 0;
+	font-size: 0;
+	text-align: right;
+	position: absolute;
+}
+
+.page_content .search > * {
+	margin: 0;
+	padding: 0 !important;
+	display: table-cell;
+	font-size: 0;
+}
+
+.page_content .search > .left {
+	width: 99%;
+}
+
+.page_content .search > .right {
+	width: 1%;
+}
+
+.page_content .search.focused {
+	background-color: #fff;
+}
+
+.page_content .search .query {
+	background-color: transparent;
+	padding: 7px;
+	font-size: 20px;
+	line-height: 1;
+	outline: none;
+	border: none;
+	/* display: block; */
+	white-space: nowrap;
+	width: 100%;
+	margin: 0;
+}
+
+.page_content .search > * > * {
+	vertical-align: top;
+}
+
+.page_content .search .submit {
+	padding: 0px;
+	margin: 0;
+	white-space: nowrap;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: inline-block;
+	-webkit-appearance: none;
+	border: none;
+	outline: none;
+	font-size: 0;
+	border: 2px solid #000;
+	border-width: 2px 2px 0 0;
+	background-color: transparent;
+}
+
+/*.page_content .submit .top,
+.page_content .submit .mid,
+.page_content .submit .bottom {
+	background-color: #fff;
+}*/
+
+.page_content .submit .top {
+	height: 7px;
+	border: 2px solid #000;
+	border-width: 2px 0 0 0;
+	border-width: 0 0 0 2px;
+}
+
+.page_content .submit > * {
+	display: block;
+	white-space: nowrap;
+}
+
+.page_content .submit > * > * {
+	margin: 0;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.page_content .submit .mid .left {
+	width: 24px;
+	height: 24px;
+	border: 2px solid #000;
+	border-width: 0 0 2px 2px;
+}
+
+.page_content .submit .mid .middle {
+	line-height: 14px;
+	font-size: 14px;
+	font-weight: 400;
+	border: 2px solid #000;
+	padding: 4px 30px 4px 20px;
+	border-width: 2px 0 0 2px;
+	background-color: #ccc;
+}
+
+.page_content .submit .mid .right {
+	width: 7px;
+	height: 24px;
+	border: 2px solid #000;
+	border-width: 0 0 0 2px;
+}
+
+.page_content .submit .bottom {
+	height: 0;
+}
+
+.page_content .submit .bottom2 {
+	height: 8px;
+}

@@ -1,0 +1,157 @@
+form.workhistory1 {
+    border: 1px solid #000;
+    margin: 25px auto;
+    background-color: #fff;
+    width: 100%;
+    max-width: 500px;
+    text-align: left;
+    z-index: 999;
+    position: absolute;
+    bottom: 11px;
+    height: 534px;
+    margin: auto;
+    left: 0px;
+    right: -670px;
+    display: none;
+    animation: animateright 0.5s;
+	    overflow-y: scroll;
+		    margin-bottom: 2px;
+}
+form.workhistory1 img.img-responsive.edu-head {
+    width: 100%;
+    margin-top: 10px;
+}
+.workhistory-sec1 {
+    padding: 25px;
+}
+
+.workhistory-sec1 h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.workhistory-sec1 h6 {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.workhistory-sec1 ul {
+    list-style: none;
+/*    background: #f3f3f3;*/
+    padding: 0;
+/*    border: 1px solid #4e4e4e;
+    margin: 20px 0;*/
+}
+
+.workhistory-sec1 ul li p {
+    text-align: right;
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+}
+.workhistory-sec1 ul li .right1 p {
+    margin-right: 40px;
+}
+
+.workhistory-sec1 ul li {
+/*    border-bottom: 1px solid #b6d433;
+    padding-bottom: 10px;
+    margin-bottom: 10px;*/
+	margin-bottom: 20px;
+}
+.workhistory-sec1 a.btn-box {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 25px;
+    background-color: #A6CE42;
+    display: inline-block;
+    border: 2px solid #000;
+    margin: 0px 0 10px 0;
+    color: #000;
+    float: right;
+}
+
+.workhistory-sec1:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.workhistory-sec1 a.btn-box:hover {
+    background: #ffb441;
+    color: #fff;
+}
+
+
+form.workhistory1 img.img-responsive.edu-head {
+    width: 100%;
+    margin-top: 10px;
+}
+.workhistory-details {
+   /* padding: 25px;*/
+}
+
+.workhistory-details h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.workhistory-details h6 {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.workhistory-details 
+ ul {
+    list-style: none;
+    background: #f3f3f3;
+    padding: 15px;
+    border: 1px solid #4e4e4e;
+    margin: 20px 0;
+}
+
+.workhistory-details ul li p {
+    text-align: right;
+    font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+}
+.workhistory-details ul li .right1 p {
+    margin-right: 40px;
+}
+
+.workhistory-details ul li {
+    border-bottom: 1px solid #b6d433;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.workhistory-details a.btn-box {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 25px;
+    background-color: #A6CE42;
+    display: inline-block;
+    border: 2px solid #000;
+    margin: 0px 0 10px 0;
+    color: #000;
+    float: right;
+}
+
+.workhistory-details:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.workhistory-details a.btn-box:hover {
+    background: #ffb441;
+    color: #fff;
+}
+
+

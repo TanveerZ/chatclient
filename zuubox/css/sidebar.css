@@ -1,0 +1,133 @@
+.sidebar {
+	position: fixed;
+	top: 38px;
+	bottom: 75px;
+	left: 25px;
+	width: 102px;
+	font-family: sans-serif;
+	overflow: visible;
+	z-index: 16;
+}
+
+.sidebar .inner {
+	position: absolute;
+	top: 0;
+	left: 7px;
+	right: 0;
+	width: calc(100% - 7px);
+	height: 100%;
+	overflow: hidden;
+}
+
+.sidebar .inner .nav {
+	border: 1px solid #231F20;
+	overflow: auto;
+	background-color: #E0EABB;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 7px;
+	height: calc(100% - 7px);
+	width: 100%;
+}
+
+.sidebar .tabs {
+	/* min-height: 100%; */
+}
+
+.sidebar .tab {
+    background-color: #fff;
+    margin: 5px;
+    padding: 6px;
+    color: #000;
+    line-height: 0.8;
+    border: 1px solid #444;
+    font-weight: 600;
+    display: block;
+    outline: none;
+    font-size: 9px;
+}
+
+.sidebar .triangle {
+	position: absolute;
+	top: 100%;
+	left: -5px;
+	width: calc(90% + 5px);
+}
+
+.sidebar .triangle img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.page_content {
+	left: 127px;
+}
+
+.sidebar .title {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 7px 0;
+	text-align: center;
+}
+
+.sidebar .border {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: 0 0 -66px 0;
+	left: -5px;
+	width: 5px;
+	white-space: nowrap;
+	font-size: 0;
+	z-index: 9999;
+}
+
+.sidebar .border > * {
+	display: inline-block;
+	height: 100%;
+}
+
+.sidebar .border .green {
+	width: 3px;
+	background-color: #C2DC5D;
+}
+
+.sidebar .border .black {
+	width: 2px;
+	background-color: #333333;
+}
+
+.sidebar .inner .tail {
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+	background-color: #E0EABB;
+	width: 16px;
+	height: 8px;
+	border: 1px solid #231F20;
+	border-width: 0 1px;
+	z-index: 10;
+}
+
+.sidebar .nav_box {
+	position: absolute;
+	transition: transform 0.5s;
+}
+
+.sidebar .inner .nav_box.hidden {
+	transform: translateY(100%);
+}
+
+.sidebar .nav_box {
+	position: absolute;
+	transition: transform 0.5s;
+}
+
+.sidebar .inner .nav_box.hidden {
+	transform: translateY(100%);
+}
+.hidden{
+	display: block !important;
+}

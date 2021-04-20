@@ -1,0 +1,293 @@
+.recent-tab .recent_posts {
+
+    border: 1px solid #000;
+
+    margin: 25px auto;
+
+    padding: 0px;
+
+    padding-right: 0px;
+
+    background-color: #fff;
+
+    min-width: 772px;
+
+    max-width: 741px;
+
+    text-align: left;
+
+    z-index: 999;
+
+    position: absolute;
+
+    top: 11px;
+
+    height: 500px;
+
+    margin: auto;
+
+    left: 0px;
+
+    right: 0%;
+
+    animation: animateright 0.5s;
+
+    display: none;
+
+}
+
+@keyframes animateright{from{opacity: 0;} to{opacity: 0.8;}}
+
+/*.recent-tab  .recent_posts:before{
+
+    position: absolute;
+
+    content: '';
+
+    right: -109px;
+
+    width: 109px;
+
+    height: 10px;
+
+    border: 1px solid #000;
+
+    border-left: 0px solid;
+
+    top: 101px;
+
+    background-color: #fff;
+
+}*/
+
+.recent-tab .recent-box-sc{
+
+    height: 498px;
+
+    overflow-y: scroll;
+
+}
+
+.recent-tab .user-head h3 {
+
+    padding: 9px;
+
+    margin: 0;
+
+    margin-bottom: 11px;
+
+    text-align: left;
+
+    color: #fff;
+
+    font-size: 14px;
+
+    background: #000;
+
+    display: inline-block;
+
+}
+
+.recent-tab .post-viwe {
+
+    margin-bottom: 30px;
+
+ }
+
+
+
+ .month
+
+ {
+
+    height: 30px;
+
+    width: 96px;
+
+    border: 1px solid;
+
+    margin-top: 3px;
+
+    margin-left: 10px;
+
+    padding: 3px;
+
+    text-align: center;
+
+
+
+ }
+
+
+
+ .historyyear
+
+ {
+
+    height: 30px;
+
+    width: 100%!important;
+
+    border: 1px solid;
+
+    margin-top: 3px;
+
+
+
+    padding: 3px;
+
+    text-align: center;
+
+ }
+
+ .recent-design{
+
+    margin: 20px 0px;
+
+ }
+
+
+
+.monthlist ul, .monthlist ul li, .historymonth ul, .historymonth ul li{
+
+    background: #000;
+
+    margin: 0px;
+
+    padding: 0px;
+
+    color: #fff;
+
+    border: none;
+
+    border-bottom: 1px solid #333;
+
+    position: relative;
+
+}
+
+.monthlist .month.active:before{
+
+    content: '';
+
+    position: absolute;
+
+    border: 8px solid transparent;
+
+    border-left-color: #ffa500;
+
+    left: 0px;
+
+    top: 0px;
+
+    bottom: 0px;
+
+    height: 10px;
+
+    margin: auto;
+
+}
+
+.nav-tabs > li.historyyear{
+
+    border: none;
+
+    font-weight: bold;
+
+}
+
+.nav-tabs{
+
+    border: none;
+
+}
+
+.nav-tabs:after, .nav-tabs:before{
+
+    display: none;
+
+}
+
+.sub-month{
+
+    font-size: 10px;
+
+    width: 100%;
+
+}
+
+.sub-month.active{
+
+    font-weight:bold;
+
+}
+
+.currenthistory .col-lg-9{
+
+    word-wrap: break-word;
+
+}
+
+.scroll-rtl{
+
+    max-height: 400px;
+
+    overflow-y:  scroll;
+
+    direction: rtl;
+
+    padding: 0px 0px;
+
+}
+
+.scroll-ltr{
+
+    max-height: 400px;
+
+    overflow-y:  scroll;
+
+    direction: ltr;
+
+}
+
+[class*="scroll-"]::-webkit-scrollbar-track
+
+{
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+    background-color: #F5F5F5;
+
+}
+
+
+
+[class*="scroll-"]::-webkit-scrollbar
+
+{
+
+    width: 6px;
+
+    background-color: #F5F5F5;
+
+}
+
+
+
+[class*="scroll-"]::-webkit-scrollbar-thumb
+
+{
+
+    background-color: #000000;
+
+}
+
+
+
+.recent-tab .recent-box-sc .window-btn2 {right: 17px !important;}
+
+.user-head button.close-btn.pull-right:hover {
+
+    background: #efefef !important;
+
+}

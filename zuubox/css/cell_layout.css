@@ -1,0 +1,196 @@
+.sidebar {
+
+    top: 28px;
+
+    z-index: 999;
+
+}
+
+
+
+.cell_layout_main .cell_layout {
+
+    border: 1px solid #000;
+
+    margin: 25px auto;
+
+    padding: 25px;
+
+    background-color: #fff;
+
+    min-width: 97%;
+
+    max-width: 97%;
+
+    text-align: left;
+
+    z-index: 100;
+
+    position: absolute;
+
+    top: 38px;
+
+    height: 535px;
+
+    margin: auto;
+
+    left: 26px;
+
+    animation: animateright 0.5s;
+
+    display: none;
+
+}
+
+@keyframes animateright{from{opacity: 0;} to{opacity: 0.8;}}
+
+.cell_layout_main  .profile:before{
+
+    position: absolute;
+
+    content: '';
+
+    left: -50px;
+
+    width: 50px;
+
+    height: 10px;
+
+    border: 1px solid #000;
+
+    border-right: 0px solid;
+
+    top: 120px;
+
+    background-color: #fff;
+
+}
+
+.right_bar .input-group{
+
+    margin-bottom: 10px;
+
+}
+
+.right_bar .empty_box{
+
+    border:1px solid #ddd;
+
+    min-height: 150px;
+
+    width: 100%;
+
+    margin-bottom: 10px;
+
+}
+
+.right_bar .btn-default{
+
+    padding: 3px;
+
+    margin-bottom: 5px;
+
+}
+
+.ltr-cell_layout {
+
+    left: 30px;
+
+    top: 0px;
+
+
+
+}
+
+.cell_layout_main .post-scroll1 {
+
+    height: 496px;
+
+    overflow-y: scroll;
+
+}
+
+.slider_cell h3, .cell_layout_main  .border h3{
+
+    margin: 3px 0px;
+
+    text-align: left;
+
+    text-transform: uppercase;
+
+    font-weight: bold;
+
+    font-size: 15px;
+
+
+
+}
+
+
+
+.slider_cell, .cell_layout_main  .border{
+
+    border:1px solid #000;
+
+    display: inline-block;
+
+    width: 100%;
+
+}
+
+.slider_cell .carousel-indicators li, .slider_cell .carousel-indicators .active{
+
+    border-radius: 0px; 
+
+}
+
+.slider_cell .carousel-indicators {
+
+    bottom: 0px;
+
+    margin-bottom: 0px;
+
+}
+
+.slider_cell .btn-box, .cell_layout_main  .border .btn-box{
+
+    border: 1px solid #000;
+
+    float: right;
+
+    margin-right: -11px;
+
+    margin-bottom: 5px;
+
+    padding: 3px 10px;
+
+    color: #3878c7;
+
+}
+
+.cell_layout_main  .border{
+
+    padding: 15px;
+
+    margin-top: 15px;
+
+}
+
+
+
+.close-btn, .close-btn:focus, .close-btn:active, .close-btn-sub, .close-btn-sub:focus, .close-btn-sub:active{
+
+        background: #fff !important;
+
+}
+
+
+
+.cell_layout_main .cell_layout .window-btn2 {right: 0;}
+
+.user-head button.close-btn.pull-right:hover {
+
+    background: #efefef !important;
+
+}
+

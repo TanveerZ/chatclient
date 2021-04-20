@@ -1,0 +1,209 @@
+    .updater .updater {
+
+    border: 1px solid #000;
+
+    margin: 25px auto;
+
+    padding: 0px;
+
+    padding-right: 0px;
+
+    background-color: #e6e6e6;
+
+    min-width: 772px;
+
+    max-width: 900px;
+
+    text-align: left;
+
+    z-index: 999;
+
+    position: absolute;
+
+    top: 11px;
+
+    height: 500px;
+
+    margin: auto;
+
+    left: 0px;
+
+    right: 0%;
+
+    animation: animateright 0.5s;
+
+    display: none;
+
+}
+
+@keyframes animateright{from{opacity: 0;} to{opacity: 0.8;}}
+
+
+
+.recent-box-sc{
+
+    height: 456px;
+
+    overflow-y: scroll;
+
+} 
+
+.updater .user-head h3 {
+
+    padding: 9px;
+
+    margin: 0;
+
+    margin-bottom: 11px;
+
+    text-align: left;
+
+    color: #fff;
+
+    font-size: 14px;
+
+    background: #000;
+
+    display: inline-block;
+
+}
+
+.updater .post-viwe {
+
+    margin-bottom: 30px;
+
+ }
+
+ .month_title{
+
+    position: relative;
+
+    width: 100%;
+
+    margin-bottom: 15px;
+
+ }
+
+ 
+
+.month_title h4{
+
+    position: absolute;
+
+    z-index: 999;
+
+    top: 0px;
+
+    bottom: 0px;
+
+    padding: 15px 0px;
+
+    left: 30%;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+}
+
+
+
+/*--new--*/
+
+.month
+
+ {
+
+    height: 30px;
+
+    width: 96px;
+
+    border: 1px solid;
+
+    margin-top: 3px;
+
+    margin-left: 10px;
+
+    padding: 3px;
+
+    text-align: center;
+
+
+
+ }
+
+
+
+
+
+
+
+.monthlist ul, .monthlist ul li{
+
+    background: #000;
+
+    margin: 0px;
+
+    padding: 0px;
+
+    color: #fff;
+
+    border: none;
+
+    border-bottom: 1px solid #333;
+
+    position: relative;
+
+}
+
+.monthlist .month.active:before{
+
+    content: '';
+
+    position: absolute;
+
+    border: 8px solid transparent;
+
+    border-left-color: #ffa500;
+
+    left: 0px;
+
+    top: 0px;
+
+    bottom: 0px;
+
+    height: 10px;
+
+    margin: auto;
+
+}
+
+
+
+
+
+
+
+.panel-default > .panel-heading {
+
+    color: #fff;
+
+    background-color: #000;
+
+    }
+
+.window-btn2 {
+
+    position: absolute;
+
+    top: 0;
+
+    right: 5px;
+
+    background: #fff;
+
+}
+
+a.close-btn.pull-right:hover {background: #efefef !important;color: #000;}
+
+.recent-box-sc .window-btn2 {right: 0px !important;}
