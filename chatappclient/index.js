@@ -4,8 +4,8 @@ const http = require('http');
 const cors = require('cors');
 const server = http.createServer(app);
 //const io = require("socket.io-client");
-const { io }= require("socket.io-client");
-const socket = io("http://localhost:3000");
+const io = require("socket.io-client");
+const socket = io.connect("http://localhost:8080");
 
 
 //const io = new Server(server);
@@ -23,10 +23,18 @@ app.use(function(req, res, next) {
    }});
 
 app.get('/', (req, res) => {   res.sendFile(__dirname + '/index.html');});
-socket.on('connection', (socket) => {
+socket.on('connect', (sockett) => {
       console.log('a user connected');
-      socket.on('chat', (msg) => {   
-        alert(msg);   
-  });
+      //console.log(socket); 
+      socket.emit('chat', "chat with me 1");
+      //var clients = io.of('/chat').clients();
     });
-server.listen(8080, () => {  console.log('listening on *:8080');});
+    socket.on('chatready', (msg) => {   
+      //socket.emit('chat', "good");   
+});
+    //var clients = io.of('/chat').clients('room');
+    socket.on('userchat', (msg) => {   
+      console.log(msg);   
+});
+socket.emit('chat', "chat with me 2");
+server.listen(3000, () => {  console.log('listening on *:3000');});
